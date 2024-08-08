@@ -1,5 +1,5 @@
 .banner{
-    background-image: url("http://www.workwings.com/wp-content/uploads/2018/03/13_03.png");
+    background-image: url("./img/banner.png");
     width: 100%;
     height: 600px;
     background-size: cover;
@@ -42,36 +42,86 @@
    margin-right: 300px;
 }
 
+.col-2{
+    position: relative;
+    background-color: aliceblue;
+    margin-top: 500px;
+    margin: 20px;
+    margin-left: 80px;
+    border-radius: 10px;
+}
 
-.card1{
-    margin-top: 100px;
-    width: 200px;
-    height: 200px;
+
+.content{
+    position: relative;
+    
     background-color: aliceblue;
-    background-image: url("./web-design.png");
-    background-size: contain;
+    display: flex;
 }
-.card2{
-    margin-top: 100px;
-    width: 200px;
-    height: 200px;
-    background-color: aliceblue;
-    background-image: url("./coding.png");
-    background-size: contain;
+.cont1{
+    width: 50%;
 }
-.card3{
-    margin-top: 100px;
-    width: 200px;
-    height: 200px;
-    background-color: aliceblue;
-    background-image: url("./bullhorn.png");
-    background-size: contain;
+
+.content h5{
+    color: rgb(119, 119, 119);
+    text-decoration: underline;
+    text-decoration-color: rgb(218, 188, 18);
+    text-underline-offset: 10px;
 }
-.card4{
-    margin-top: 100px;
-    width: 200px;
+
+.content img{
+    border-radius: 50%;
     height: 200px;
-    background-color: aliceblue;
-    background-image: url("./target.png");
-    background-size: contain;
+    width: 200px;
+}
+.img1{
+    width: 50%;
+}
+
+.row p{
+    color: rgb(118, 118, 118);
+}
+
+.row a{
+    color: orange;
+    text-decoration: none;
+}
+
+.works{
+    background-color: rgb(249, 238, 215);
+    
+}
+
+.works h2{
+    text-align: center;
+    color: rgb(119, 119, 119);
+    text-decoration: underline;
+    text-decoration-color: rgb(218, 188, 18);
+    text-underline-offset: 10px;
+
+}
+
+.works img{
+    margin-top: 50px;
+    width:30px;
+    margin-bottom: 70px;
+}
+
+.tch{
+    background-color: rgb(255, 208, 0);
+    padding-bottom: 100px;
+}
+
+.tch h2{
+    color: white;
+    margin-left: 300px;
+    padding-top: 40px;
+}
+
+.tch a{
+    color: white;
+    
+    margin-left: 300px;
+    padding-top: 40px;
+    padding-bottom: 100px;
 }
